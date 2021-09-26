@@ -26,7 +26,7 @@ verbose = False #False, 1, or 2
 input_dir = './dataset/test'
 output_dir = './dataset/output'
 groundtruth_dir = './dataset/groundtruth'
-numImages = 24
+numImages = 50
 eps = 0.00000001
 
 onlyfiles = [f for f in listdir(input_dir) if isfile(join(input_dir, f))]
