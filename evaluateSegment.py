@@ -23,10 +23,10 @@ from os.path import isfile, join, splitext
 
 # Default parameters (the only code you can change)
 verbose = False #False, 1, or 2
-input_dir = './dataset/test'
-output_dir = './dataset/output'
-groundtruth_dir = './dataset/groundtruth'
-numImages = 50
+input_dir = './add_dataset/add_test'
+output_dir = './add_dataset/output'
+groundtruth_dir = './add_dataset/add_groundtruth'
+numImages = 24
 eps = 0.00000001
 
 onlyfiles = [f for f in listdir(input_dir) if isfile(join(input_dir, f))]
